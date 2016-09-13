@@ -11,4 +11,4 @@ Before using this project, you must install the latest versions of [Vagrant](htt
 5. Within the virtual machine, run `cd /CSCI3411`. You will now be inside the parent directory of this repository on you host machine. From here, you will be able to easily test all of your assignments.
 6. When you are done testing, run `exit` and you will be returned to your host machine. Keep in mind however, that Ubuntu is still running.
 7. To shutdown Ubuntu, run `vagrant halt` on your host machine. To delete Ubuntu, run `vagrant destroy`.
-8. To bring Ubuntu back up at any time, simply run `vangrant up` on your host machine
+8. To bring Ubuntu back up at any time, simply run `vangrant up` on your host machine.
