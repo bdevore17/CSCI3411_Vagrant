@@ -12,3 +12,6 @@ Before using this project, you must install the latest versions of [Vagrant](htt
 6. When you are done testing, run `exit` and you will be returned to your host machine. Keep in mind however, that Ubuntu is still running.
 7. To shutdown Ubuntu, run `vagrant halt` on your host machine. To delete Ubuntu, run `vagrant destroy`.
 8. To bring Ubuntu back up at any time, simply run `vangrant up` on your host machine.
+
+#### Running Xv6 With this Repo
+Within your Xv6 repo (inside of your Vagrant VM), run `make qemu-nox`. This is should bring up Xv6 on your command line. To quit, use ctrl+a x.
