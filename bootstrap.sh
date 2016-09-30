@@ -4,5 +4,6 @@ sudo apt-get install -y git
 sudo apt-get install -y qemu-system-x86
 sudo apt-get install -y tmux
 sudo apt-get install -y gdb
+sudo apt-get install -y httperf
 
 sudo apt-get upgrade -y
